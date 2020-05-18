@@ -25,11 +25,25 @@ export default class MasterHog extends Component {
     return (
       <div>
 
-        <input type="radio" name="eyeColor" value="blue" onChange={this.changeEyeColor} />
+        <input 
+          type="radio" 
+          name="eyeColor" 
+          value="blue" 
+          onChange={this.changeEyeColor} />
         Blue<br></br>
-        <input type="radio" name="eyeColor" value="sun" onChange={this.changeEyeColor} />
+
+        <input 
+          type="radio" 
+          name="eyeColor" 
+          value="sun" 
+          onChange={this.changeEyeColor} />
         Sun<br></br>
-        <input type="radio" name="eyeColor" value="glowing" onChange={this.changeEyeColor} />
+        
+        <input 
+          type="radio" 
+          name="eyeColor" 
+          value="glowing" 
+          onChange={this.changeEyeColor} />
         Glowing<br></br>
       
         <h2>Name: Master Blaster</h2>
